@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSY_nf-ePbiqEUVb1NNelR4uv_L_87UIhwJA&usqp=CAU"
+                    alt="logo img" class="logo" />
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX</p>
+                <h1><span>Hi,I'm Neha <br>Singh From India.</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="my_img2.jpeg "> </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am a passionate and creative individual with a deep curiosity for the world around me.
+                         My name is Neha Singh, and I thrive on embracing new challenges and learning opportunities.</p>
+                         <section class="titles">
+                            <p class="tab-links active" onclick="opentab('skills')" >Skills</p>
+                            <p class="tab-links"  onclick="opentab('experience')">Experiences</p>
+                            <p class="tab-links"  onclick="opentab('education')">Education</p>  
+                        </section>
+                        <section class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                        </ul>
+                        </section>
+                        <section class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2026 - Current</span><br>At Software Engineer Post at Google</li>
+                                <li><span>2025 - 2026</span><br>Working as a Software Developer at Myntra </li>
+                                <li><span>2024 - 2025</span><br>working as a Senior Developer at Paytm</li>
+                            </ul>
+                            </section>
+                            <section class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2024</span><br>Persuing MCA</li>
+                                    <li><span>2018 - 2021</span><br>BCA</li>
+                                </ul>
+                                </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------Services---------------------- -->
+    <div id="services">
+        <div clas="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience. User experience is central to the web designing process</p>
+                   <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>User experience (UX) refers to the user's journey when interacting with a product or service. 
+                        UI design, on the other hand, refers to the actual interfaces with which users engage. The UI design process may include buttons or widgets, text, images, sliders, and other interactive elements.
+                    </p>
+                     <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>App design is the look and feel of a mobile application. This includes all of the visual elements and interactive elements that impact how the app functions. Mobile app design combines two concepts—UI and UX. The user interface (UI) encompasses the app's look and feel</p>
+                     <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------portfolio--------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+       <h1 class="sub-title">My Work</h1>
+       <div class="work-list">
+        <div class="work">
+            <img src="phone 1.jpg">
+            <div class="layer">
+             <h3>Social Media App</h3>
+                <p>The app connects you to the talented people around the world.
+                    Download it from play store.</p>   
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="phone 2.jpg">
+            <div class="layer">
+                <h3>Music App</h3>
+                   <p>The app connects you to the talented people around the world.
+                       Download it from play store.</p>   
+                       <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+               </div>
+        </div>
+        <div class="work">
+            <img src="phone 3.jpg"><div class="layer">
+                <h3>Online shopping App</h3>
+                   <p>The app connects you to the talented people around the world.
+                       Download it from play store.</p>   
+                       <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+               </div>
+        </div>
+       </div>
+       <a href="" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ------------------------Contact----------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+           <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-sharp fa-solid fa-paper-plane"></i>singhneha@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>0123456789</p>
+            <div class="social-icons">
+                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://pinterest.com/"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+            <a href="DPP 03 Trigonometric Ratio.pdf" download class="btn btn2">Download CV</a>
+           </div>
+           <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name.." required/>
+                <input type="email" name="email" placeholder="Yor Email.." required/>
+                <textarea name="Message" rows="6" placeholder="Your Message.."></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+           </div>
+            </div>
+        </div>
+        <div class="copyright">
+        <p><i class="fa-solid fa-heart"></i>Copyright © Singhneha 2024 google.com</p>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
